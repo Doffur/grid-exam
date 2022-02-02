@@ -3,7 +3,8 @@ let gridCon = (function(){
 
     function render(){
         _createGrid();
-        let images = document.querySelectorAll("image");
+        let images = document.querySelectorAll(".image");
+        images.forEach(img=>img.addEventListener("click",_zoomImage));
 
     }
     function _createGrid(){
@@ -17,6 +18,9 @@ let gridCon = (function(){
             newGrid.appendChild(image);
             _mainGrid.appendChild(newGrid);
         }
+    }
+    function _zoomImage(){
+            console.log("hello");
     }
     
     return{

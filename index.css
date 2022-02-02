@@ -1,12 +1,13 @@
+
 body{
     display: flex;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     height: 100vh;  
 }
 
 #main-grid{
-    z-index: -1000;
     display:flex;
     flex-flow:row wrap;  
     gap:1px;
@@ -30,9 +31,3 @@ body{
     box-shadow: 5px 4px rgb(117, 117, 117);
 }
 
-#zoom{
-    float: left;
-    height: 200px;
-    width: 150px;
-    background-color: red; 
-}
