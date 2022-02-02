@@ -25,7 +25,7 @@
     display:flex;
     flex-flow:row wrap;  
     gap: 30px;
-    height: 700px;
+    height: 900px;
     width: 700px;
     padding:10px;
     
@@ -69,7 +69,6 @@
 .zoom-image{
     height: 400px;
     width: 300px;
-   
     background-repeat: none;
     
 }
